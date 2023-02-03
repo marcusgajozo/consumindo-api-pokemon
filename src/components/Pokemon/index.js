@@ -1,6 +1,6 @@
 import React from "react";
-import { Container } from "./style";
+import { Card } from "./style";
 
 export default function Pokemon({ data }) {
-  return <Container>{data.name}</Container>;
+  return <Card>{data.name}</Card>;
 }

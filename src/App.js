@@ -10,16 +10,29 @@ function App() {
 
   useEffect(() => {
     axios.get("https://pokeapi.co/api/v2/pokemon/").then((resposta) => {
-      setList([...resposta.data.results]);
+      setList(resposta.data.results);
     });
   }, []);
 
   return (
     <>
-      <h2>Consumindo api Prokémon</h2>
-      {List.map((item) => (
-        <Pokemon key={item.name} data={item}/>
-      ))}
+
+      <main>
+        <header>
+          
+        </header>
+        <section>
+          <h2>Consumindo api Prokémon</h2>
+          <div className="cards-pokemon">
+            {List.map((item) => (
+              <Pokemon key={item.name} data={item}/>
+            ))}
+          </div>
+        </section>
+        <footer>
+          
+        </footer>
+      </main>
     </>
   );
 }

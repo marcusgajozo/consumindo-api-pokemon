@@ -10,3 +10,8 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+.cards-pokemon {
+    display: flex;
+    flex-wrap: wrap;
+}

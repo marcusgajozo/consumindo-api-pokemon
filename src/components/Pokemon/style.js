@@ -1,11 +1,8 @@
 import styled from "styled-components";
 
-export const Container = styled.span`
-    display: flex;
+export const Card = styled.div`
+    padding: 10px;
+    margin: 10px;
     background-color: aliceblue;
 
-    card {
-        width: 200px;
-        background-color: aqua;
-    }
 `;
