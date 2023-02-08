@@ -4,6 +4,7 @@ import axios from "axios";
 import "./App.css";
 
 import Pokemon from "./components/Pokemon/";
+import Header from "./components/Header";
 
 function App() {
   const [List, setList] = useState([]);
@@ -18,9 +19,7 @@ function App() {
     <>
 
       <main>
-        <header>
-          
-        </header>
+        <Header />
         <section>
           <h2>Consumindo api Prokémon</h2>
           <div className="cards-pokemon">
