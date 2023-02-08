@@ -9,7 +9,9 @@ function App() {
     <>
       <main>
         <Header />
-        <CardsPokemon></CardsPokemon>
+        <section>
+          <CardsPokemon></CardsPokemon>
+        </section>
         <footer></footer>
       </main>
     </>

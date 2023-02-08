@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Card = styled.div`
-    padding: 10px;
-    margin: 10px;
-    background-color: aliceblue;
-
+    padding: 25px 60px;
+    background-color: #4A59B6;
+    border: none;
+    border-radius: 10px;
 `;

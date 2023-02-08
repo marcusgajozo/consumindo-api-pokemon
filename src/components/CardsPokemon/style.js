@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 
-export const Body = styled.section`
-    height: 100vh;
-    max-width: 90%;
-    margin: 0 auto;
-    background-color: aqua;
+export const Div = styled.div`
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    gap: 15px;
 `;

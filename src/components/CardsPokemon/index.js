@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import axios from "axios"
-import { Body } from "./style";
+import axios from "axios";
+import { Div } from "./style";
 
 import Pokemon from "../Pokemon";
 
@@ -13,13 +13,12 @@ export default function CardsPokemon() {
       setList(resposta.data.results);
     });
   }, []);
+
   return (
-    <Body>
-      <div>
-        {List.map((item) => (
-          <Pokemon className="card" key={item.name} data={item} />
-        ))}
-      </div>
-    </Body>
+    <Div>
+      {List.map((item) => (
+        <Pokemon className="card" key={item.name} data={item} />
+      ))}
+    </Div>
   );
 }
