@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo from "../../image/logo-pokemon.svg";
+import logo from "../../images/logo-pokemon.svg";
 import { Menu } from "./style";
 
 export default function Header() {
