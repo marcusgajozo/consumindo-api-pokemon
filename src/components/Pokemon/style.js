@@ -5,4 +5,8 @@ export const Card = styled.div`
     background-color: #4A59B6;
     border: none;
     border-radius: 10px;
+
+    .pokemon {
+        width: 100px;
+    }
 `;
